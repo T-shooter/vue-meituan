@@ -1,8 +1,8 @@
 <template>
     <div class="footBar">
         <router-link to="/" class="footBarBtn"><i class="icoBowlFill"></i><span class="footBarBtnTxt footBarBtnTxtFirst">首页</span></router-link>
-        <router-link to="" class="footBarBtn"><i class="icoPaper"></i><span class="footBarBtnTxt">订单</span></router-link>
-        <router-link to="" class="footBarBtn"><i class="icoUser"></i><span class="footBarBtnTxt">我的</span></router-link>
+        <router-link to="orderList" class="footBarBtn"><i class="icoPaper"></i><span class="footBarBtnTxt">订单</span></router-link>
+        <router-link to="profile" class="footBarBtn"><i class="icoUser"></i><span class="footBarBtnTxt">我的</span></router-link>
     </div>
 </template>
 
